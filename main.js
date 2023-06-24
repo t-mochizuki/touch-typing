@@ -7,14 +7,14 @@ window.addEventListener("load", () => {
 
       keydown(key) {
         if (!this.isKeydown) {
-          document.getElementById(key).style.color = "#FF00000;
+          document.getElementById(key).style.color = "cyan";
           this.isKeydown = true;
         }
       }
 
       keyup(key) {
         if (this.isKeydown) {
-          document.getElementById(key).style.color = "#000000";
+          document.getElementById(key).style.color = "black";
           this.isKeydown = false;
         }
       }
