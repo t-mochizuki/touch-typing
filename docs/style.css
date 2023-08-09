@@ -3,18 +3,14 @@ h1 {
 }
 
 table {
-  background-color: darkkhaki;
-  border-radius: 1%;
   margin-left: auto;
   margin-right: auto;
 }
 
 table tr td {
   background-color: beige;
-  border-radius: 8%;
   height: 80px;
   width: 80px;
   text-align: justify;
   vertical-align: top;
-  font-size: 29px;
 }
